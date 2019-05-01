@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 150px;
 }
 ol, ul {
 	list-style: none;
@@ -63,10 +64,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-container {
-	width: 600px;
-	margin: 0 auto;
-}
 
 .top-header {
 	display: flex;
@@ -118,6 +115,25 @@ section {
 	display: flex;
 }
 
+.top-content {
+	margin-bottom: 20px;
+}
 
+.top-content-left {
+	padding: 20px;
+	width: 50%;
+}
+
+.top-content-right {
+	padding: 20px;
+	width: 50%;
+}
+
+.middle-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
