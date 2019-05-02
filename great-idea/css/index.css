@@ -191,9 +191,13 @@ footer {
 .boxes {
 	display: flex;
 	justify-content: space-around;
-	
+	align-items: space-between;
+	margin: 20px;
 }
 
 .box1 {
 	padding: 20px;
+	border: 1px solid black;
+	width: 50%;
+	margin: 20px;
 }
