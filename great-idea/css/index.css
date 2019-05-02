@@ -71,10 +71,10 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	margin: 20px;
 	margin-bottom: 10px;
-	}
+	}	
 
-.top-header nav a{
-	padding: 30px;
+.top-header nav a {
+	padding-right: 45px;
 	color: grey;
 	text-decoration: none;
 }	
@@ -169,3 +169,31 @@ footer {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*CODE FOR SERVICES PAGE*/
+
+.top-section {
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.services-image-content {
+	margin-bottom: 20px;
+}
+
+.services.content {
+	margin-bottom: 30px;
+	padding: 30px;
+	border-bottom: 1px solid black;
+
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.box1 {
+	padding: 20px;
+}
