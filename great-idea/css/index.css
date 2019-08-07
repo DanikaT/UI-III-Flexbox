@@ -66,9 +66,10 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	margin: 0, auto;
+	margin: 0  auto;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .header {
@@ -90,6 +91,7 @@ h1, h2, h3, h4, h5 {
 .marketing {
 	display: flex;
 	justify-content: space-evenly;
+	padding: 20px 0 35px 0;
 }
 
 .header-text {
@@ -109,15 +111,67 @@ h1, h2, h3, h4, h5 {
 	padding: 10px 22px 10px 22px;
 }
 
+main {
+	margin-left: 120px;
+	margin-right: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .top-content {
 	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-top: 1px solid black;
+}
+
+.features {
+	padding: 10px;
+}
+
+.about {
+	padding: 10px;
 }
 
 .middle {
 	display: flex;
 	justify-content: center;
+	padding: 10 0 20 0;
 	}
+
+.middle-img {
+	flex-grow: 1;
+}
 
 .bottom-content {
 	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}	
+
+.services {
+	padding: 10px;
+}
+
+.product {
+	padding: 10px;
+}
+
+.vision {
+	padding: 10px;
+}
+
+footer {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+address {
+	padding: 10px;
+}
+
+.copyright {
+	text-align: center;
 }
