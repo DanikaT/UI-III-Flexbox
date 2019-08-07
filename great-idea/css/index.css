@@ -67,9 +67,26 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0, auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
 	display: flex;
 	justify-content: space-around;
+}
+
+.marketing {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-text h1 {
+	font-size: 60px;
+	text-align: center;
 }
