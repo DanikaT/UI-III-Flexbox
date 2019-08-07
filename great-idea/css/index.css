@@ -74,19 +74,50 @@ h1, h2, h3, h4, h5 {
 .header {
 	display: flex;
 	justify-content: space-around;
+	padding: 30px;
+}
+
+.header nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 30px;
+}
+
+.header nav a:first-child {
+	padding-left: 0;
 }
 
 .marketing {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .header-text {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-text h1 {
 	font-size: 60px;
 	text-align: center;
+}
+
+.get-started {
+	border: 1px solid black;
+	padding: 10px 22px 10px 22px;
+}
+
+.top-content {
+	display: flex;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	}
+
+.bottom-content {
+	display: flex;
 }
